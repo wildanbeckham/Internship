@@ -1,0 +1,161 @@
+body{
+	background-color: #F1F1F1;
+}
+
+/* navbar */
+.navbar{
+	font-family: 'Krona One', sans-serif;
+}
+.nav-item{
+	font-size: 11px;
+}
+.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 2px solid #D5529D;
+	width: 100%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+.bt{
+	color: white;
+}
+.bt.scrolled{
+	color: #222733;
+	transition: 0.5s ease;
+}
+.bg.scrolled{
+	background-color: #fff;
+	box-shadow: 0 0 10px;
+	transition: 0.5s ease;
+}
+/* navbar */
+
+
+/* jumbotron */
+.banner{
+	background-image: url(../img/background.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	font-family: 'Krona One', sans-serif;
+}
+#jumbotron{
+	height: 100vh;
+	padding-top: 40vh;
+}
+.transparant{
+	-webkit-backdrop-filter:  brightness(0.30);
+    backdrop-filter:  brightness(0.50);
+}
+/* jumbotron */
+
+
+/* about */
+ #about{
+ 	height: 100%;
+ 	padding-top: 60px;
+ 	margin-bottom: 50px;
+ 	filter: grayscale(70%);
+}
+ #img{
+ 	height: 400px;
+ 	width: 300px;
+ }
+ #skill{
+ 	font-family: sans-serif;
+ 	padding: 0;
+ 	list-style: none;
+ 	width: 500px;
+ }
+ .bar{
+ 	background: #CFCFCF;
+ 	display: block;
+ 	height: 2px;
+ 	border: 1px solid rgba(0,0,0,0,3);
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ 	box-shadow: 0 0 10px #CFCFCF;
+ }
+ .bar span{
+ 	height: 2px;
+ 	float: left;
+ 	background: #2c2c2c;
+ }
+ .html.scrolled{
+ 	width: 55%;
+ 	animation: html 2.5s;
+ }
+ .java.scrolled{
+ 	width: 40%;
+ 	animation: java 2.5s
+ }
+ .boot.scrolled{
+ 	width: 80%;
+ 	animation: boot 2.5s
+ }
+ .code.scrolled{
+ 	width: 50%;
+ 	animation: code 2.5s
+ }
+.pr{
+	background-color: #CBCCCF;
+}
+ @keyframes html{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 55%;
+ 	}
+ }
+ @keyframes java{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 40%;
+ 	}
+ }
+ @keyframes boot{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 80%;
+ 	}
+ }
+ @keyframes code{
+ 	0%{
+ 		width: 0%;
+ 	}
+ 	100%{
+ 		width: 50%;
+ 	}
+ }
+/* about */
+
+
+/*service*/
+ #service{
+ 	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+	text-shadow: 2px 2px black;
+ }
+ .filter{
+	-webkit-backdrop-filter:  brightness(0.40);
+    backdrop-filter:  brightness(0.50);
+}
+#text{
+	font-weight: 300;
+}
+
+ /* service */
+ .crd{
+ 	height: 100vh;
+ 	width: 300px;
+ 	margin: 0 -2px;
+ }
